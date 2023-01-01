@@ -48,28 +48,65 @@ fun DefaultPreview() {
     }
 }
 
+// 運勢
 @Composable
 fun showLucky() {
-
     val lucky = listOf<String>("大吉","吉", "中吉", "小吉", "末吉", "凶")
     val luckySet = lucky.shuffled().first()
     Text(text = "運勢：${luckySet}", fontSize = 30.sp)
 }
 
-// 待ち人
-@Composable
-fun machibito() {
-    val people = listOf<String>("めちゃくちゃ来ます", "ドン引きするくらい来る", "誰も来ない", "後ろにいます", "あなたの隣にいる")
-    val randomPeople = people.shuffled().first()
-    Text(text = "待人：${randomPeople}", fontSize = 20.sp)
-}
-// 争い事
+
+/**
+ * 願望
+ */
+
+
+/**
+ * 失物
+ */
+
+/**
+ * 争事
+ */
 @Composable
 fun battle() {
     val battle = listOf<String>("めちゃくちゃ来ます", "ドン引きするくらい来る", "誰も来ない", "後ろにいます", "あなたの隣にいる")
     val randomPeople = people.shuffled().first()
     Text(text = "待人：${randomPeople}", fontSize = 20.sp)
 }
+
+/**
+ * 商売
+ */
+
+/**
+ * 縁談
+ */
+
+/**
+ * 恋愛
+ */
+
+/**
+ * 旅行
+ */
+
+/**
+ * 待人
+ */
+@Composable
+fun machibito() {
+    val people = listOf<String>("めちゃくちゃ来ます", "ドン引きするくらい来る", "誰も来ない", "後ろにいます", "あなたの隣にいる")
+    val randomPeople = people.shuffled().first()
+    Text(text = "待人：${randomPeople}", fontSize = 20.sp)
+}
+
+
+
+/**
+ * 転居
+ */
 @Composable
 fun machibito() {
     val people = listOf<String>("めちゃくちゃ来ます", "ドン引きするくらい来る", "誰も来ない", "後ろにいます", "あなたの隣にいる")
